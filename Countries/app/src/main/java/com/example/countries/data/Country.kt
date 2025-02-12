@@ -12,5 +12,5 @@ data class Name (
 )
 
 data class Flag (
-    val common : String
+    val png : String
 )
