@@ -21,9 +21,8 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import coil3.compose.AsyncImage
-import coil3.request.ImageRequest
-import coil3.request.crossfade
+import coil.compose.AsyncImage
+import coil.request.ImageRequest
 import com.example.countries.R
 import com.example.countries.data.Country
 import com.example.countries.viewmodel.CountryViewModel
@@ -57,7 +56,7 @@ fun CountryItem(country: Country) {
                 .build(),
             contentDescription = "Country Flag",
             error = painterResource(R.drawable.error),
-            placeholder = painterResource(R.drawable.load),
+           // placeholder = painterResource(R.drawable.load),
 
             )
         Spacer(modifier = Modifier.width(8.dp))

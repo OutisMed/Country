@@ -47,7 +47,7 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.retrofit.gson)
 //COIL
-    implementation(libs.coil.kt)
+    implementation("io.coil-kt:coil-compose:2.4.0")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
