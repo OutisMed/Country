@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 
 interface CountryApi {
-    @GET("v3.1/all")
+    @GET("v3.1/region/africa")
     suspend fun getCountries(): List<Country>
     companion object {
         fun create(): CountryApi{
